@@ -1,7 +1,10 @@
 import turtle
+import easygui_qt as easy
 
 canvas = turtle.Screen()
-canvas.bgcolor("black")
+canvas.colormode(255)
+background_color_selected = easy.get_color_rgb()
+canvas.bgcolor(background_color_selected)
 
 shane = turtle.Turtle()
 shane.pensize(5)
