@@ -3,11 +3,11 @@ import turtle
 def apply_rules(letter):
     #rule 1
     if letter == "F":
-        new_string = "F-F++F-F"
+        new_string = "FF"
     
     #rule 2
-#    elif letter == "B":
-#        new_string = "AB"
+    elif letter == "X":
+        new_string = "--FXF++FXF++FXF--"
     
     else:
         new_string = letter
@@ -41,12 +41,12 @@ def draw_L_system(some_turtle, instructions, angle, distance):
 
 window = turtle.Screen()
 mark = turtle.Turtle()
-
+window.tracer(2)
 mark.speed(0)
 
 mark.up()
-mark.back(250)
+mark.goto(-625, -400)
 mark.down()
 
-instructions = create_L_system(2, "F")
-draw_L_system(mark, instructions, 60, 50)
+instructions = create_L_system(10, "FXF--FF--FF")
+draw_L_system(mark, instructions, 60, 1)
