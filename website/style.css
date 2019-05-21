@@ -15,3 +15,11 @@ body {
     color: green;
     font-size: 2em;
 }
+
+#sageWisdom {
+    margin-left: 75px;
+    padding: 25px;
+    font-size: 1.25em;
+    background-color: rgba(0, 0, 0, 0.507);
+    color: white;
+}
