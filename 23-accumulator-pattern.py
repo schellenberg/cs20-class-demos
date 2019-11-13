@@ -17,6 +17,7 @@ def my_sqrt(n):
 def estimate_pi():
     quarter_pi = 0
     is_adding = True
+    
     for denominator in range(1, 1000000, 2):
         if is_adding:
             quarter_pi = quarter_pi + 1 / denominator
@@ -24,7 +25,7 @@ def estimate_pi():
         else:
             quarter_pi = quarter_pi - 1 / denominator
             is_adding = True
-            
+
     return quarter_pi * 4
 
 print(estimate_pi())
