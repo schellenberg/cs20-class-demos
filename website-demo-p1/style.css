@@ -1,0 +1,17 @@
+h1 {
+    color: rgb(219, 78, 27);
+    font-size: 3em;
+    background-color: rgba(167, 157, 167, 0.507);
+    text-align: center;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 75px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+body {
+    background-color: rgb(212, 238, 238);
+    font-family: 'Times New Roman', Times, serif;
+    padding: 5%;
+}
