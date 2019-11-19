@@ -1,7 +1,7 @@
 h1 {
     text-align: center;
     font-size: 2.5em;
-    background-color: rgba(255, 140, 0, 0.507);
+    background-color: rgba(255, 140, 0, 0.897);
     margin-left: 20%;
     margin-right: 20%;
     padding-top: 50px;
@@ -11,6 +11,27 @@ h1 {
 
 
 body {
-    background-image: url("older-man.jpg");
+    background-image: url("trees.jpg");
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+#container {
+    background-color: rgba(255, 255, 255, 0.753);
+    margin: 75px;
+    padding: 50px;
+}
+
+.button {
+    background-color: rgb(2, 0, 139);
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: rgb(147, 147, 245);
+    color: black;
 }
