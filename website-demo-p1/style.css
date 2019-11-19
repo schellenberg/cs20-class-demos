@@ -11,7 +11,33 @@ h1 {
 }
 
 body {
-    background-color: rgb(212, 238, 238);
+    background-image: url("mountains.jpg");
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
     font-family: 'Times New Roman', Times, serif;
     padding: 5%;
+}
+
+#meaningless {
+    color: green;
+}
+
+#container {
+    background-color: rgba(255, 255, 240, 0.8);
+    padding: 75px;
+}
+
+.button {
+    text-decoration: none;
+    background-color: rgb(28, 40, 150);
+    color: white;
+    padding: 15px;
+    margin: 30px;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: rgb(143, 145, 253);
+    color: black;
 }
