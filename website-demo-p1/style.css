@@ -13,8 +13,9 @@ h1 {
 body {
     background-image: url("mountains.jpg");
     background-repeat: no-repeat;
-    background-position: right top;
+    background-position: left top;
     background-attachment: fixed;
+    background-size: cover;
     font-family: 'Times New Roman', Times, serif;
     padding: 5%;
 }
@@ -40,4 +41,37 @@ body {
 .button:hover {
     background-color: rgb(143, 145, 253);
     color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgb(41, 40, 40);
+    width: 100%;
+}
+
+nav ul li {
+    float: left;
+    background-color: rgb(41, 40, 40);
+}
+
+nav ul li a {
+    display: block;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    text-decoration: none;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: rgb(93, 93, 93);
 }

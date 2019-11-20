@@ -7,6 +7,7 @@ h1 {
     padding-top: 50px;
     padding-bottom: 50px;
     border-radius: 50px;
+    margin-top: 100px;
 }
 
 
@@ -33,5 +34,35 @@ body {
 
 .button:hover {
     background-color: rgb(147, 147, 245);
+    color: black;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    background-color: rgb(26, 26, 26);
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav ul li a:hover {
+    background-color: rgb(129, 128, 128);
     color: black;
 }
