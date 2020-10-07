@@ -27,8 +27,24 @@ def draw_square_from_center(a_turtle, side_length):
     a_turtle.right(90)
     a_turtle.pendown()
 
+def draw_inner_squares(my_turtle, outside_length, inside_length):
+    '''Draws two squares, with the larger and smallers sizes given'''
+    draw_square_from_center(my_turtle, outside_length)
+    draw_square_from_center(my_turtle, inside_length)
+
+def draw_square_logo(some_turtle, square_size):
+    '''Draws two squares, one that is tilted by 45 degrees'''
+    draw_square_from_center(some_turtle, square_size)
+    some_turtle.left(45)
+    draw_square_from_center(some_turtle, square_size)
+    some_turtle.right(45)
+
+def draw_overlapped_squares(my_turtle, size):
+    '''Draws two squares, with one halfway over the other.'''
+    draw_square_from_center(my_turtle, size)
+    draw_square(my_turtle, size)
+
 canvas = turtle.Screen()
 aman = turtle.Turtle()
 
-draw_square_from_center(aman, 300)
-draw_square_from_center(aman, 200)
+draw_overlapped_squares(aman, 300)
