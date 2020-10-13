@@ -1,0 +1,14 @@
+h1 {
+    color: #FFBD00;
+    text-align: center;
+    background-color: #e93720;
+    margin-left: 35%;
+    margin-right: 35%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 40px;
+}
+
+body {
+    background-color: #30C5FF;
+}
