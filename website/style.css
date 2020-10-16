@@ -2,6 +2,7 @@ h1 {
     color: #FFBD00;
     text-align: center;
     background-color: #e93720;
+    margin-top: 75px;
     margin-left: 35%;
     margin-right: 35%;
     padding-top: 50px;
@@ -11,4 +12,35 @@ h1 {
 
 body {
     background-color: #30C5FF;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgb(223, 35, 66);
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    background-color: rgb(223, 35, 66);
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: rgb(223, 35, 66);
 }
