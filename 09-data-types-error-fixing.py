@@ -10,4 +10,4 @@ grad_year = int(grad_year)
 year_difference = grad_year - current_year
 
 # output the result
-print("You will graduate in " + str(year_difference) + " years.")
+print("You will graduate in", year_difference, "years.")
