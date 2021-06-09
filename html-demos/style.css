@@ -1,0 +1,12 @@
+h1 {
+    color: rgb(212, 52, 52);
+    background-color: rgba(45, 200, 123, 0.267);
+    text-align: center;
+}
+
+body {
+    padding-left: 15%;
+    padding-right: 15%;
+
+    background-color: slategrey;
+}
