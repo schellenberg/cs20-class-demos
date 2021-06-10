@@ -2,6 +2,10 @@ h1 {
     color: rgb(212, 52, 52);
     background-color: rgba(45, 200, 123, 0.267);
     text-align: center;
+    border-style: dashed;
+    padding: 25px 10px 25px 10px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 body {
@@ -9,4 +13,27 @@ body {
     padding-right: 15%;
 
     background-color: slategrey;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 175px;
+    background-color: steelblue;
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 100%;
+}
+
+nav ul li a:hover {
+    background-color: white;
+    color: steelblue;
 }
