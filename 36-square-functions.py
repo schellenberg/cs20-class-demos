@@ -1,7 +1,10 @@
 import turtle
 
 window = turtle.Screen()
+window.tracer(2) #skips frames
+
 joel = turtle.Turtle()
+joel.speed(0)   #speeds up your turtle like crazy
 
 def draw_square(my_turtle, side_length):
     for side in range(4):
