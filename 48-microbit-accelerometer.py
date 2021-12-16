@@ -24,7 +24,7 @@ while True:
         print("RIGHT")
         microbit.display.show("R")
         
-    if is_tilted_up(300):
+    elif is_tilted_up(300):
         print("UP")
         microbit.display.show("U")
     elif is_tilted_down(300):
