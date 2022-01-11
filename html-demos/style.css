@@ -13,6 +13,16 @@ body {
     margin-top: 100px;
 }
 
+#important {
+    color: darkblue;
+    background-color: lightgray;
+}
+
+.useful {
+    color: navajowhite;
+    background-color: black;
+}
+
 nav ul {
     list-style-type: none;
     position: fixed;
