@@ -5,11 +5,13 @@ page = requests.get(url)
 the_text = str(page.content)
 
 def count(the_letter, text):
+    alphabet = "abcdefghijklmnopqrstuvwxyz"
     number_of_letter = 0
     total_letters = 0
     
     for letter in text:
-        total_letters += 1
+        if letter.lower() in alphabet:
+            total_letters += 1
         if letter.lower() == the_letter:
             number_of_letter += 1
     
