@@ -1,0 +1,1 @@
+print( 5 == 3 or 4 == 4 and not 2 == 1)
