@@ -2,6 +2,16 @@ body {
     background-color: rgb(115, 83, 71);
 }
 
+.quote {
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color: antiquewhite;
+    padding: 15px;
+    border-radius: 20px;
+    font-size: larger;
+    color: rgb(38, 6, 6);
+}
+
 h1 {
     text-align: center;
     background-color: darkblue;
