@@ -2,6 +2,10 @@ body {
     background-color: rgb(115, 83, 71);
 }
 
+#details {
+    background-color: white;
+}
+
 .quote {
     margin-left: 150px;
     margin-right: 150px;
