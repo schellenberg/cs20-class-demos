@@ -1,6 +1,26 @@
-body {
-    background-color: rgb(115, 83, 71);
+h1 {
+    text-align: center;
+    margin-top: 75px;
 }
+
+@media only screen and (min-width: 600px) {
+    body {
+        background-color: rgb(115, 83, 71);
+    }
+
+    h1 {
+        text-align: center;
+        background-color: darkblue;
+        color: blanchedalmond;
+        padding: 75px;
+        border-style: dashed;
+        margin-left: 200px;
+        margin-right: 200px;
+        margin-top: 75px;
+    }
+}
+
+
 
 #details {
     background-color: white;
@@ -14,17 +34,6 @@ body {
     border-radius: 20px;
     font-size: larger;
     color: rgb(38, 6, 6);
-}
-
-h1 {
-    text-align: center;
-    background-color: darkblue;
-    color: blanchedalmond;
-    padding: 75px;
-    border-style: dashed;
-    margin-left: 200px;
-    margin-right: 200px;
-    margin-top: 75px;
 }
 
 nav ul {
