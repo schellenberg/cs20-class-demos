@@ -26,6 +26,12 @@ h1 {
     background-color: white;
 }
 
+#content {
+    margin: 25px;
+    padding: 50px;
+    background-color: rgba(154, 152, 152, 0.608);
+}
+
 .quote {
     margin-left: 150px;
     margin-right: 150px;
