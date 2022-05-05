@@ -43,14 +43,14 @@ h1 {
 }
 
 nav ul {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 100%;
-    background-color: blue;
+    background-color: rgba(0, 0, 255, 0.427);
 }
 
 nav ul li {
