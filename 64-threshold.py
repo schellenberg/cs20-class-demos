@@ -33,5 +33,5 @@ for x in range(width):
         new_pixel = image.Pixel(new_red, new_green, new_blue)
         img.set_pixel(x, y, new_pixel)
     
-    img.draw(screen)
+img.draw(screen)
         
