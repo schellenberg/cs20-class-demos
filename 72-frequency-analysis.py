@@ -1,3 +1,5 @@
+import requests
+
 def letter_count(letter, text):
     alphabet = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
     
@@ -7,7 +9,7 @@ def letter_count(letter, text):
     for character in text:
         if character in alphabet:
             total_letters += 1
-            if character == letter:
+            if character.lower() == letter:
                 letter_count += 1
     
     percent = (letter_count / total_letters) * 100
@@ -17,5 +19,11 @@ def letter_count(letter, text):
 def frequency_analysis(text):
     for letter in "abcdefghijklmnopqrstuvwxyz":
         letter_count(letter, text)
-        
-frequency_analysis("walter murray collegiate")
+
+#sherlock holmes
+book_url = "https://www.gutenberg.org/files/1661/1661-0.txt"
+text = str(requests.get(book_url).content)
+frequency_analysis(text)
+
+
+
