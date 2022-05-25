@@ -12,6 +12,10 @@ def letter_count(letter, text):
     
     percent = (letter_count / total_letters) * 100
     percent = round(percent, 2)
-    print(percent)
-    
-letter_count("e", "walter murray collegiate")
+    print(f"{letter} - {percent}% of the text")
+
+def frequency_analysis(text):
+    for letter in "abcdefghijklmnopqrstuvwxyz":
+        letter_count(letter, text)
+        
+frequency_analysis("walter murray collegiate")
