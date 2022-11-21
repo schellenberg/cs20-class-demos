@@ -1,0 +1,13 @@
+body {
+    background-color: #93B5C6;
+}
+
+h1 {
+    color: #F0CF65;
+    text-align: center;
+    background-color: #D7816A;
+    border-style: dotted;
+    padding: 50px;
+    margin-left: 125px;
+    margin-right: 125px;
+}
