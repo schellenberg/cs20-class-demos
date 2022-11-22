@@ -1,0 +1,44 @@
+body {
+    background-color: #DDA15E;
+}
+
+h1 {
+    color: #283618;
+    text-align: center;
+    background-color: #BC6C25;
+    border-style: dashed;
+    padding: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: 75px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #283618;
+    width: 100%;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #BC6C25;
+}
+
+nav ul li a:hover {
+    background-color: #BC6C25;
+    color: #283618;
+}
