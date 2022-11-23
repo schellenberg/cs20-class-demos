@@ -43,3 +43,16 @@ nav ul li a:hover {
     color: #D7816A; 
     background-color: #F0CF65;
 }
+
+.quote {
+    margin-left: 150px;
+    margin-right: 150px;
+    background-color:#F0CF65;
+    color: #D7816A;
+    padding: 25px;
+    font-size: 1.8em;
+}
+
+#deeds {
+    text-align: center;
+}
