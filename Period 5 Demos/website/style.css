@@ -42,3 +42,16 @@ nav ul li a:hover {
     background-color: #BC6C25;
     color: #283618;
 }
+
+.quote {
+    background-color: #283618;
+    color: #DDA15E;
+    font-size: 2.5em;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 25px;
+}
+
+#fifa {
+    text-align: center;
+}
