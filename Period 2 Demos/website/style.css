@@ -19,13 +19,13 @@ nav ul li {
 
 nav ul {
     list-style-type: none;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     margin: 0;
     padding: 0;
-    background-color: #D7816A;
+    background-color: #d7826a;
 }
 
 nav ul li a {
@@ -36,7 +36,6 @@ nav ul li a {
     padding-top: 10px;
     padding-bottom: 10px;
     color: #F0CF65;
-    background-color: #D7816A;
 }
 
 nav ul li a:hover {
@@ -55,4 +54,17 @@ nav ul li a:hover {
 
 #deeds {
     text-align: center;
+}
+
+.button {
+    text-decoration: none;
+    background-color:#F0CF65;
+    padding: 15px;
+    border-radius: 20px;
+    color: black;
+}
+
+.button:hover {
+    background-color:#D7816A;
+    color: #F0CF65;
 }

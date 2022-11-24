@@ -55,3 +55,16 @@ nav ul li a:hover {
 #fifa {
     text-align: center;
 }
+
+.button {
+    text-decoration: none;
+    background-color: #283618;
+    color:#BC6C25;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: #BC6C25;
+    color: #283618;
+}
