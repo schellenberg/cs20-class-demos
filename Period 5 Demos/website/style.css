@@ -1,5 +1,10 @@
 body {
     background-color: #DDA15E;
+    margin: 0;
+}
+
+#main {
+    margin: 10px;
 }
 
 h1 {
@@ -8,8 +13,8 @@ h1 {
     background-color: #BC6C25;
     border-style: dashed;
     padding: 50px;
-    margin-left: 200px;
-    margin-right: 200px;
+    /* margin-left: 200px;
+    margin-right: 200px; */
     margin-top: 75px;
 }
 
