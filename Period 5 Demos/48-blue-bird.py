@@ -1,12 +1,10 @@
 import image
 
-# moon = image.Image("moon.jpg")
-moon = image.FileImage("moon.jpg")
+moon = image.Image("moon.jpg")
 width = moon.get_width()
 height = moon.get_height()
 
 window = image.ImageWin(width, height)
-
 moon.draw(window)
 
 for x in range(width):
@@ -17,8 +15,9 @@ for x in range(width):
         g = current_pixel.get_green()
         b = current_pixel.get_blue()
         
-        if r + g + b > 50:
-            new_pixel = image.Pixel(r, g, b+80)
+        if r + g + b > 80:
+            new_pixel = image.Pixel(r, g, b+45)
             moon.set_pixel(x, y, new_pixel)
-    
     moon.draw(window)
+            
+        
