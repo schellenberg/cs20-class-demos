@@ -20,11 +20,18 @@ def draw_square(some_turtle, side_length):
         some_turtle.forward(side_length)
         some_turtle.left(90)
 
+#def draw_c(a_turtle, longest_side_length, width_of_c):
+    
+
 window = turtle.Screen()
 victor = turtle.Turtle()
 victor.pensize(5)
+ieva = turtle.Turtle()
+ieva.color("pink")
+ieva.pensize(5)
 
 draw_square(victor, 100)
+draw_square(ieva, 75)
 
 #schellenberg's solution
 # for u_shape in range(4):
