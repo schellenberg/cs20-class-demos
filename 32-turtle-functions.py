@@ -20,8 +20,20 @@ def draw_square(some_turtle, side_length):
         some_turtle.forward(side_length)
         some_turtle.left(90)
 
-#def draw_c(a_turtle, longest_side_length, width_of_c):
+def draw_c(a_turtle, longest_side_length, width_of_c):
+    '''a_turtle -> turtle.Turtle() object
+       longest_side_length -> int
+       width_of_c -> int
+       
+       Draws a C shape, with the gap within the C being the width_of_c.'''
+    a = longest_side_length
+    b = longest_side_length - width_of_c
+    c = width_of_c
+    d = longest_side_length - width_of_c * 2
     
+    for side in [d, c, b, a, b, c, d, 0, 0, d]:
+        a_turtle.forward(side)
+        a_turtle.left(90)
 
 window = turtle.Screen()
 victor = turtle.Turtle()
@@ -30,8 +42,7 @@ ieva = turtle.Turtle()
 ieva.color("pink")
 ieva.pensize(5)
 
-draw_square(victor, 100)
-draw_square(ieva, 75)
+draw_c(ieva, 200, 75)
 
 #schellenberg's solution
 # for u_shape in range(4):
