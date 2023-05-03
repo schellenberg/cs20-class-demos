@@ -12,3 +12,8 @@ h1 {
 body {
     background-color: #8ECAE6;
 }
+
+.pullquote {
+    font-size: x-large;
+    margin-left: 150px;
+}
