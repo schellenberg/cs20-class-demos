@@ -1,0 +1,14 @@
+h1 {
+    text-align: center;
+    background-color: #FB8500;
+    color: #023047;
+    border-style: dashed;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+body {
+    background-color: #8ECAE6;
+}
