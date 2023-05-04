@@ -7,6 +7,7 @@ h1 {
     padding-bottom: 25px;
     margin-left: 200px;
     margin-right: 200px;
+    margin-top: 75px;
 }
 
 body {
@@ -16,4 +17,35 @@ body {
 .pullquote {
     font-size: x-large;
     margin-left: 150px;
+}
+
+nav ul {
+    list-style-type: none;
+    background-color: #FFB703;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #FFB703;
+    color: #023047;
+    text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #023047;
+    color: #FFB703;
 }
