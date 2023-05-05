@@ -24,7 +24,7 @@ nav ul {
     background-color: #FFB703;
     margin: 0;
     padding: 0;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
@@ -48,4 +48,10 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #023047;
     color: #FFB703;
+}
+
+#mainContent {
+    background-color: #219EBC;
+    margin: 50px;
+    padding: 25px;
 }
