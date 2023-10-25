@@ -1,9 +1,12 @@
 #draw a triangle
 
 import turtle
+import PySimpleGUI as sg
+
+the_color = sg.popup_get_text("What colour should the background be?")
 
 canvas = turtle.Screen()
-canvas.bgcolor("lightgreen")
+canvas.bgcolor(the_color)
 
 cherry = turtle.Turtle()
 cherry.color("blue")
