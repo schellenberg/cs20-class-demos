@@ -1,7 +1,14 @@
 body {
-    background-color: rgb(67, 90, 201);
+    background-color: #EAE2B7;
 }
 
 h1 {
-    color: red;
+    color: #D62828;
+    background-color: #FCBF49;
+    border-style: dashed;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 200px;
+    margin-right: 200px;
 }
