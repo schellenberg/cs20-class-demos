@@ -18,7 +18,7 @@ nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
     background-color: #F77F00;
@@ -42,4 +42,13 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #003049;
     color: #F77F00;
+}
+
+.pullquote {
+    font-size: xx-large;
+    margin-left: 150px;
+}
+
+#important {
+    color: #D62828;
 }
