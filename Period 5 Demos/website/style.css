@@ -56,3 +56,10 @@ nav ul li a:hover {
 #superImportant {
     color: #FFB703;
 }
+
+#mainContent {
+    margin-left: 100px;
+    margin-right: 100px;
+    background-color: #FFB703;
+    padding: 50px;
+}
