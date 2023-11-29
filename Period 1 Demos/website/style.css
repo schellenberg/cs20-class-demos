@@ -52,3 +52,11 @@ nav ul li a:hover {
 #important {
     color: #D62828;
 }
+
+#mainContent {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 75px;
+    background-color: #FCBF49;
+    padding: 50px;
+}
