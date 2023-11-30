@@ -63,3 +63,12 @@ nav ul li a:hover {
     background-color: #FFB703;
     padding: 50px;
 }
+
+.zoomImage {
+    width: 100px;
+    transition: width 2s;
+}
+
+.zoomImage:hover {
+    width: 100%;
+}
