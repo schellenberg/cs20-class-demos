@@ -1,4 +1,7 @@
-the_text = "Walter Murray is great!"
+import requests
+
+the_url = "https://www.gutenberg.org/cache/epub/46/pg46.txt"
+the_text = str(requests.get(the_url).content)
 
 def count_letters(text, letter_to_find):
     '''Counts how many times letter_to_find is in the text.'''
@@ -16,4 +19,8 @@ def count_letters(text, letter_to_find):
     percentage = round(percentage, 2)
     print(f"{letter_to_find} showed up {percentage}%")
 
-count_letters(the_text, "r")
+
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+for letter in alphabet:
+    count_letters(the_text, letter)
+
