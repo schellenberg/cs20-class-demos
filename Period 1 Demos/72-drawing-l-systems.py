@@ -3,12 +3,12 @@ import turtle
 def apply_rules(letter):
     '''Return the changed string, based on the rules.'''
     #rule 1
-    if letter == "A":
-        return "B"
+    if letter == "F":
+        return "FF"
     
     #rule 2
-    elif letter == "B":
-        return "AB"
+    elif letter == "X":
+        return "--FXF++FXF++FXF--"
     
     #if it's not one of the rules, just send it back
     else:
@@ -42,5 +42,11 @@ def draw_l_system(some_turtle, instructions, angle, distance):
 canvas = turtle.Screen()
 justin = turtle.Turtle()
 
-instructions = "FF++F++FF++F"
-draw_l_system(justin, instructions, 45, 50)
+justin.speed(0)
+justin.penup()
+justin.goto(-600, -400)
+justin.pendown()
+
+instructions = create_l_system(7, "FXF--FF--FF")
+draw_l_system(justin, instructions, 60, 2)
+canvas.exitonclick()
