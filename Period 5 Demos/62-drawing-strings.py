@@ -13,5 +13,5 @@ def draw_instructions(some_turtle, instructions, angle, distance):
 window = turtle.Screen()
 evan = turtle.Turtle()
 
-instructions = "FF++F++FF++F"
-draw_instructions(evan, instructions, 45, 50)
+instructions = "F++F++F"
+draw_instructions(evan, instructions, 60, 50)
