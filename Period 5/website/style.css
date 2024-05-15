@@ -45,3 +45,16 @@ nav ul li a {
 nav ul li a:hover {
     background-color: #6A040F;
 }
+
+#gifs {
+    text-align: center;
+}
+
+.pullquote {
+    font-size: xx-large;
+    background-color: #6A040F;
+    color: white;
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 30px;
+}
