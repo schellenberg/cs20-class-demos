@@ -46,3 +46,15 @@ nav ul li a:hover {
     color: #FFBA08;
     background-color: #6A040F;
 }
+
+#gifs {
+    text-align: center;
+}
+
+.pullquote {
+    margin-left: 150px;
+    margin-right: 150px;
+    padding: 30px;
+    font-size: xx-large;
+    background-color: #FFBA08;
+}
