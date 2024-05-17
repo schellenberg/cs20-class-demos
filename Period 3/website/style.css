@@ -58,3 +58,12 @@ nav ul li a:hover {
     font-size: xx-large;
     background-color: #FFBA08;
 }
+
+.zoomImage {
+    width: 150px;
+    transition: width 2s;
+}
+
+.zoomImage:hover {
+    width: 600px;
+}
