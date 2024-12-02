@@ -1,0 +1,17 @@
+/* colors from: https://coolors.co/palette/03071e-370617-6a040f-9d0208-d00000-dc2f02-e85d04-f48c06-faa307-ffba08 */
+
+h1 {
+    color: #FFBA08;
+    background-color: #E85D04;
+    /* border-style: dashed; */
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 25px;
+} 
+
+body {
+    background-color: #FFBA08;
+}
