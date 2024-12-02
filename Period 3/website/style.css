@@ -1,0 +1,16 @@
+/* colors from https://coolors.co/palette/ffcdb2-ffb4a2-e5989b-b5838d-6d6875 */
+
+h1 {
+    color: #FFCDB2;
+    background-color: #6D6875;
+    text-align: center;
+    /* border-style: dashed; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 150px;
+    margin-right: 150px;
+}
+
+body {
+    background-color: #FFCDB2;
+}
