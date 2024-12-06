@@ -56,3 +56,26 @@ nav ul li a:hover {
     margin: 40px;
     background-color:#6d687547
 }
+
+.button {
+    background-color: #6D6875;
+    color: #FFCDB2;
+    padding: 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    /* margin-bottom: 15px; */
+}
+
+.button:hover {
+    background-color: #2b2a2c;
+    color: white;
+}
+
+.zoomImage {
+    width: 300px;
+    transition: width 2s;
+}
+
+.zoomImage:hover {
+    width: 500px;
+}
