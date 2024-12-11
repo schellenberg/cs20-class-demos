@@ -1,16 +1,16 @@
 import image
 
-flag = image.Image("skflag.png")
+shoes = image.Image("sneakers.jpg")
 
-width = flag.get_width()
-height = flag.get_height()
+width = shoes.get_width()
+height = shoes.get_height()
 
 canvas = image.ImageWin(width, height)
-flag.draw(canvas)
+shoes.draw(canvas)
 
 for y in range(height):
     for x in range(width):
-        the_pixel = flag.get_pixel(x, y)
+        the_pixel = shoes.get_pixel(x, y)
         
         red = the_pixel.get_red()
         green = the_pixel.get_green()
@@ -19,12 +19,12 @@ for y in range(height):
         # make a grayscale filter
         average = (red + green + blue) / 3
         new_pixel = image.Pixel(average, average, average)
-        flag.set_pixel(x, y, new_pixel)
+        shoes.set_pixel(x, y, new_pixel)
         
-    flag.draw(canvas)
+    shoes.draw(canvas)
 
 #save the final version of your manipulation
-#flag.save("grayscale-flag.jpg")
+#shoes.save("grayscale-shoes.jpg")
 
 
 
