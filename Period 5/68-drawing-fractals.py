@@ -3,9 +3,9 @@ import turtle
 def apply_rules(letter):
     '''Apply the rules to a single letter and return the result.'''
     if letter == "F":
-        return "F-F++F-F"
-    elif letter == "B":
-        return "AB"
+        return "FF"
+    elif letter == "X":
+        return "--FXF++FXF++FXF--"
     else:
         return letter
 
@@ -38,8 +38,14 @@ def draw_instructions(some_turtle, instructions, distance, angle):
     
 canvas = turtle.Screen()
 aidan = turtle.Turtle()
+aidan.speed(0)
 
-instructions = create_l_system("F", 2) #axiom, iterations
-draw_instructions(aidan, instructions, 50, 60) #distance, angle
+#goto bottom left
+aidan.penup()
+aidan.goto(-300, -300)
+aidan.pendown()
+
+instructions = create_l_system("FXF--FF--FF", 6) #axiom, iterations
+draw_instructions(aidan, instructions, 5, 60) #distance, angle
 
         
