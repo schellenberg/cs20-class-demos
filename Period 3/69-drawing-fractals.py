@@ -3,9 +3,9 @@ import turtle
 def apply_rules(letter):
     '''Apply the rules to a letter, and return the result.'''
     if letter == "F":
-        return "F-F++F-F"
-    elif letter == "B":
-        return "AB"
+        return "FF"
+    elif letter == "X":
+        return "--FXF++FXF++FXF--"
     else:
         return letter
 
@@ -44,6 +44,8 @@ khoi.penup()
 khoi.goto(-300, -300)
 khoi.pendown()
 
-tasks = create_l_system("F", 4)
+#                       axiom          iterations
+tasks = create_l_system("FXF--FF--FF", 5)
 draw_l_system(khoi, tasks, 60, 10)
+#                        angle size
         
