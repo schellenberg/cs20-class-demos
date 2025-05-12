@@ -14,6 +14,8 @@ h1 {
 
 body {
     background-color: #F9C74F;
+    margin: 0;
+    padding: 0;
 }
 
 nav ul {
@@ -35,4 +37,22 @@ nav ul li a {
 
 nav ul li a:hover {
     background-color: #43AA8B;
+}
+
+#content {
+    background-color: #F8961E;
+    margin: 50px;
+    padding: 25px;
+}
+
+.button {
+    text-decoration: none;
+    background-color: #43AA8B;
+    color: black;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.button:hover {
+    background-color: #277DA1;
 }
