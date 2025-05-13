@@ -57,3 +57,20 @@ nav ul li a:hover {
 .button:hover {
     background-color: #03071E;
 }
+
+.pullquote {
+    font-size: 2.5em;
+    background-color: #dc2e025b;
+    padding: 25px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
+
+.zoom {
+    width: 200px;
+    transition: width 500ms;
+}
+
+.zoom:hover {
+    width: 400px;
+}
