@@ -1,3 +1,5 @@
+import requests
+
 def letter_count(text, letter_to_find):
     '''Prints out the percentage of letters that are letter_to_find in text.'''
     letter_seen = 0
@@ -14,8 +16,12 @@ def letter_count(text, letter_to_find):
     
 
 alphabet = "abcdefghijklmnopqrstuvwxyz"
-phrase = "Good afternoon!"
+# phrase = "Good afternoon!"
+
+url = "https://www.gutenberg.org/cache/epub/100/pg100.txt"
+the_text = str(requests.get(url).content)
+
 for letter in alphabet:
-    letter_count(phrase, letter)
+    letter_count(the_text, letter)
     
 
