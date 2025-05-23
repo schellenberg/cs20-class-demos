@@ -1,3 +1,5 @@
+import requests
+
 def letter_count(text, letter_to_find):
     '''Prints out the percentage of characters that are
        letter inside text.'''
@@ -13,12 +15,14 @@ def letter_count(text, letter_to_find):
     percentage = round(percentage, 2)
     print(f"{letter_to_find} - {percentage}%")
     
-test_phrase = "Good morning, Computer Science 20!"
+url = "https://www.gutenberg.org/cache/epub/1023/pg1023.txt"
+novel = str(requests.get(url).content)
+# test_phrase = "Good morning, Computer Science 20!"
 
 alphabet = "abcdefghijklmnopqrstuvwxyz"
 for letter in alphabet:
     #write out the percentages for every letter
-    letter_count(test_phrase, letter)
+    letter_count(novel, letter)
 
 
 
