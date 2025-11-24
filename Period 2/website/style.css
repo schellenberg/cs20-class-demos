@@ -1,7 +1,17 @@
+/* https://coolors.co/palette/001219-005f73-0a9396-94d2bd-e9d8a6-ee9b00-ca6702-bb3e03-ae2012-9b2226 */
+
 h1 {
-    color: red;
+    color: #AE2012;
+    /* border-style: dashed; */
+    text-align: center;
+    background-color: #94D2BD;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 50px;
 }
 
 body {
-    background-color: rgb(233, 249, 207);
+    background-color: #E9D8A6;
 }
