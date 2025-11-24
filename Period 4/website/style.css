@@ -1,7 +1,17 @@
+/* https://coolors.co/palette/03071e-370617-6a040f-9d0208-d00000-dc2f02-e85d04-f48c06-faa307-ffba08 */
+
 h1 {
-    color: red;
+    color: #03071E;
+    background-color: #F48C06;
+    text-align: center;
+    /* border-style: dashed; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 200px;
+    margin-right: 200px;
+    border-radius: 40px;
 }
 
 body {
-    background-color: rgb(205, 241, 241);
+    background-color: #FFBA08;
 }
