@@ -14,4 +14,32 @@ h1 {
 
 body {
     background-color: #FFBA08;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    background-color: #370617;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin: 0;
+}
+
+nav ul li a {
+    color: #FFBA08;
+    font-size: 2.5em;
+    text-decoration: none;
+    padding: 15px;
+}
+
+nav ul li a:hover {
+    background-color: #6A040F;
+    color: #F48C06;
+}
+
+#content {
+    margin: 50px;
 }
