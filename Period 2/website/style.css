@@ -43,3 +43,11 @@ nav ul a:hover {
 #content {
     margin: 50px;
 }
+
+.pullquote {
+    font-size: 2.5em;
+    background-color: #EE9B00;
+    padding: 25px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
