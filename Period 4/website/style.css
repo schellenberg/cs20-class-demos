@@ -51,3 +51,12 @@ nav ul li a:hover {
     margin-left: 75px;
     margin-right: 75px;
 }
+
+.zoomImg {
+    width: 250px;
+    transition: width 1000ms;
+}
+
+.zoomImg:hover {
+    width: 450px;
+}
