@@ -12,10 +12,10 @@ def draw_instructions(instructions, some_turtle, length, angle):
 
 def apply_rules(letter):
     '''Apply the rules to one letter, and return the result.'''
-    if letter == "A":
-        return "B"
-    elif letter == "B":
-        return "AB"
+    if letter == "F":
+        return "FF"
+    elif letter == "X":
+        return "--FXF++FXF++FXF--"
     else:
         return letter
 
@@ -38,5 +38,12 @@ def create_l_system(axiom, number_of_iterations):
 canvas = turtle.Screen()
 mitt = turtle.Turtle()
 
-instructions = "F++FF++F++FF"
-draw_instructions(instructions, mitt, 100, 45)
+mitt.penup()
+mitt.goto(-750, -550)
+mitt.pendown()
+mitt.pensize(2)
+mitt.speed(0)
+
+instructions = create_l_system("FXF--FF--FF", 6)
+draw_instructions(instructions, mitt, 10, 60)
+
