@@ -2,10 +2,10 @@ import turtle
 
 def apply_rules(letter):
     '''Apply rules to one letter, and return result.'''
-    if letter == "A":
-        return "B"
-    elif letter == "B":
-        return "AB"
+    if letter == "F":
+        return "FF"
+    elif letter == "X":
+        return "--FXF++FXF++FXF--"
     else:
         return letter
     
@@ -37,6 +37,12 @@ def draw_instructions(instructions, some_turtle, step_size, angle):
 canvas = turtle.Screen()
 somaya = turtle.Turtle()
 
-instructions = "F++FF++F++FF"
-draw_instructions(instructions, somaya, 150, 45)
+somaya.speed(0)
+somaya.penup()
+somaya.goto(-700, -500)
+somaya.pendown()
+somaya.pensize(2)
+
+instructions = create_l_system(6, "FXF--FF--FF")
+draw_instructions(instructions, somaya, 10, 60)
 
