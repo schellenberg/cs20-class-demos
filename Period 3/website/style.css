@@ -1,7 +1,20 @@
+/* colors are from: https://coolors.co/palette/03071e-370617-6a040f-9d0208-d00000-dc2f02-e85d04-f48c06-faa307-ffba08 */
+
 h1 {
-    color: red;
+    color: #370617;
+    background-color: #E85D04;
+    /* border-style: dashed; */
+    padding: 50px;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 300px;
+    border-radius: 50px;
 }
 
 body {
-    background-color: rgba(34, 34, 233, 0.375);
+    background-color: #FFBA08;
+}
+
+#important {
+    color: #D00000;
 }
