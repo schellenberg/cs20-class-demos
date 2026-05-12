@@ -18,3 +18,11 @@ body {
 #important {
     color: #D00000;
 }
+
+.pullquote {
+    font-size: 2.5em;
+    background-color: #DC2F02;
+    padding: 25px;
+    margin-left: 75px;
+    margin-right: 75px;
+}
