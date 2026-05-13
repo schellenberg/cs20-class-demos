@@ -13,6 +13,8 @@ h1 {
 
 body {
     background-color: #FFBA08;
+    margin: 0;
+    padding: 0;
 }
 
 #important {
@@ -25,4 +27,29 @@ body {
     padding: 25px;
     margin-left: 75px;
     margin-right: 75px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: left;
+    background-color: #D00000;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 2.5em;
+    padding: 15px;
+    color: #FFBA08;
+}
+
+nav ul li a:hover {
+    background-color: #9D0208;
+}
+
+#content {
+    margin: 50px;
 }
