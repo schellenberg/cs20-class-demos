@@ -62,3 +62,20 @@ nav ul li a:hover {
 .zoomImg:hover {
     width: 600px;
 }
+
+@media (max-width: 700px) {
+    h1 {
+        margin-left: 20px;
+        margin-right: 20px;
+        padding: 20px;
+        font-size: 1.5em;
+    }
+
+    #content {
+        margin: 10px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+}
