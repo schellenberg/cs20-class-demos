@@ -14,9 +14,9 @@ def draw_instructions(instructions, some_turtle, distance, angle):
 def apply_rules(letter):
     '''Apply the rules to an individual letter.'''
     if letter == "F":
-        return "F-F++F-F"
-    elif letter == "B":
-        return "AB"
+        return "FF"
+    elif letter == "X":
+        return "--FXF++FXF++FXF--"
     else:
         return letter
 
@@ -43,5 +43,5 @@ kabeer.penup()
 kabeer.goto(-800, -500)
 kabeer.pendown()
 
-instructions = create_L_system(4, "F")
+instructions = create_L_system(6, "FXF--FF--FF")
 draw_instructions(instructions, kabeer, 10, 60)
