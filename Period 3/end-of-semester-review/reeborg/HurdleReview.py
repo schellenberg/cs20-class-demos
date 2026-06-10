@@ -40,12 +40,3 @@ while not at_goal():
 # WARNING: Do not change this comment.
 # Library Code is below.
 ################################################################
-def thing():
-    move()
-    turn_left()
-    move()
-    move()
-    turn_left()
-    move()
-    turn_left()
-    move()

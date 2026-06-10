@@ -40,12 +40,3 @@ repeat 6:
 # WARNING: Do not change this comment.
 # Library Code is below.
 ################################################################
-def thing():
-    move()
-    turn_left()
-    move()
-    move()
-    turn_left()
-    move()
-    turn_left()
-    move()
